@@ -1,0 +1,17 @@
+<Project>
+
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Scenographer Contributors</Authors>
+        <Copyright>Copyright (c) Scenographer 2025</Copyright>
+        <PackageProjectUrl>http://github.com/scenographer/scenographer-dotnet</PackageProjectUrl>
+        <PackageReadmeFile></PackageReadmeFile>
+        <RepositoryUrl>https://github.com/scenographer/scenographer-dotnet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>

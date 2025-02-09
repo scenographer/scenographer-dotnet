@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net6.0;net8.0;net9.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>1.0.0</Version>
+        <PackageId>Scenographer</PackageId>
+        <PackageVersion>$(Version)</PackageVersion>
+        <PackageTags>Playwright;WebExtension</PackageTags>
+        <Description>
+Playwright enables reliable end-to-end testing for modern web apps.
+This package brings in additional features to enable using WebExtensions.
+        </Description>
+        <PackageIcon>icon.png</PackageIcon>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Playwright" />
+        <PackageReference Include="SharpZipLib" />
+    </ItemGroup>
+
+</Project>
